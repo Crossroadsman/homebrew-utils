@@ -5,7 +5,7 @@ Tap
 For background on taps see <https://docs.brew.sh/Taps>
 
 
-Install the tap using:
+Tap the repo using:
 
 ```console
 $ brew tap Crossroadsman/utils
