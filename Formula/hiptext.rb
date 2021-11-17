@@ -23,7 +23,7 @@ class Hiptext < Formula
     # Fix the font path
     # https://github.com/jart/hiptext/issues/12
     inreplace "src/font.cc", "DejaVuSansMono.ttf",
-                             "/System/Library/Fonts/Monaco.dfont"
+                             "/System/Library/Fonts/Monaco.ttf"
 
     system "./configure", "--disable-dependency-tracking",
                           "--disable-silent-rules",
